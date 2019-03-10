@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComposedMission.cs" />
-    <Compile Include="Delegates.cs" />
     <Compile Include="IMission.cs" />
     <Compile Include="MissionContainer.cs" />
     <Compile Include="Program.cs" />

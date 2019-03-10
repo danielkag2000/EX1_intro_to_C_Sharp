@@ -32,16 +32,6 @@ namespace Excercise_1
         {
             double x = this.TheFunction(value);
             OnCalculate?.Invoke(this, x);
-
-            /*if (OnCalculate == null)
-            {
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine($"HERE!!!!!! in mission {this.Name}");
-                Console.WriteLine();
-                Console.WriteLine();
-            }*/
-
             return x;
         }
     }
