@@ -32,8 +32,9 @@ namespace Excercise_1
 
         public ComposedMission Add(Func<double, double> func)
         {
-            Func<double, double> tempFunc = val => func(this.TheFunction(val));
-            return new ComposedMission(tempFunc, this.Name);
+            Func<double, double> tempFunc = new Func<double, double>(this.TheFunction);
+            this.TheFunction = val => func(tempFunc(val));
+            return this;
         }
 
         public double Calculate(double value)

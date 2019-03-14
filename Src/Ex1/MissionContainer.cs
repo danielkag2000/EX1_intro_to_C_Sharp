@@ -24,7 +24,7 @@ namespace Excercise_1
                 if (!funcMap.ContainsKey(funcName))
                     funcMap[funcName] = val => val; // defualt
 
-                return funcMap[funcName];
+                return new Func<double, double>(funcMap[funcName]);
             }
 
             set
