@@ -17,16 +17,12 @@ namespace Excercise_1
 
         public event EventHandler<double> OnCalculate;
 
-
-
         public SingleMission(Func<double, double> func, string missionName)
         {
             this.Name = missionName;
             this.Type = "Single";
-            this.TheFunction = func;
+            this.TheFunction = new Func<double, double>(func);
         }
-
-
 
         public double Calculate(double value)
         {
