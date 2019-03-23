@@ -1,0 +1,58 @@
+commit fdb7d32bc0272a66c1237ad905e27348ef64e061
+Author: danielkag2000 <45756887+danielkag2000@users.noreply.github.com>
+Date:   Sat Mar 23 17:52:04 2019 +0200
+
+    update
+    
+    change the commposed mission to work with one delegate
+
+commit e5f62a24d7f922bffc4089840121eb46b555d42a
+Author: danielkag2000 <45756887+danielkag2000@users.noreply.github.com>
+Date:   Sat Mar 16 15:52:36 2019 +0200
+
+    update
+    
+    change computer
+
+commit 4aa4747279883e2533320299d2d203d2bfa50393
+Author: danielk <daniel2000@users.noreply.github.com>
+Date:   Thu Mar 14 16:33:59 2019 +0200
+
+    update main
+    
+    remove the last line (the input line)
+
+commit 3462b4f7e2205e5aca23d6f2130c23640bd6c955
+Author: danielk <daniel2000@users.noreply.github.com>
+Date:   Thu Mar 14 16:31:39 2019 +0200
+
+    update the container and compposite
+    
+    + make the Add function return the current object
+    + make the get in the indexer return a new copy of the function
+
+commit 8f873d0c9efd41e8d9c5dce4d3844651c0612b8a
+Author: danielk <daniel2000@users.noreply.github.com>
+Date:   Sun Mar 10 18:13:20 2019 +0200
+
+    update files
+    
+    update the files
+    and remove the delegate namespace
+
+commit c73bc9f46c6433711d7009a8e2c77f4fa336f972
+Author: danielk <daniel2000@users.noreply.github.com>
+Date:   Sun Mar 10 18:05:07 2019 +0200
+
+    first version
+    
+    finished (first version):
+    FunctionCointainer
+    SingleMission (with events)
+    CommposedMission (with events)
+
+commit 3b7980df2b1685730cecb7cdb98c0af3b4c2b3dc
+Author: danielk <daniel2000@users.noreply.github.com>
+Date:   Sun Mar 10 13:06:12 2019 +0200
+
+    Initial commit
